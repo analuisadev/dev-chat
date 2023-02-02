@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --bg-body: #1A1924;
+    --status-color: #00B37E;
+    --bg-input-res: #07847E;
+    --text-color: #E1E1E6;
+    --bg-input-msg: #633BBC;
+    --white: #FFFFFF;
+}
