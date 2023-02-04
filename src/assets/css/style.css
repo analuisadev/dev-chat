@@ -4,8 +4,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    -webkit-font-smoothing: antialiased; /* NOVO */ /* Aplicação de fontes menos grossas*/
-    -moz-osx-font-smoothing: grayscale; /* NOVO */ /* Aplicação de fontes menos grossas*/
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 :root {
@@ -16,26 +16,26 @@
     --text-color: #E1E1E6;
     --bg-input-msg: #633BBC;
     --white: #FFFFFF;
-    font-size: 62.5%; /* NOVO */
+    font-size: 62.5%;
 }
 
 body {
     background-color: var(--bg-body);
     font-family: 'Roboto', sans-serif;
     color: var(--text-color);
-    font-size: 1.6rem; /* NOVO */
+    font-size: 1.6rem;
     height: 100vh;
     overflow: hidden;
 }
 
 #app {
-    padding: 2.4rem 3.2rem; /* NOVO */
+    padding: 2.4rem 3.2rem;
     height: 100vh;
     width: 100vw;
     max-width: 880px;
     margin: auto;
     display: grid;
-    grid-template-rows: max-content 1fr max-content; /* NOVO */
+    grid-template-rows: max-content 1fr max-content;
 }
 
 .contact {
@@ -53,7 +53,7 @@ body {
 .user-info > img {
     width: 4.8rem;
     height: 4.8rem;
-    object-fit: cover; /* NOVO */
+    object-fit: cover;
     border-radius: 50%;
 }
 
@@ -111,7 +111,7 @@ body {
     border-radius: 0 .8rem .8rem .8rem;
 }
 
-.message:not(.you) { /* NOVO */
+.message:not(.you) {
     width: 40vw;
 }
 
